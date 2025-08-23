@@ -1,0 +1,8 @@
+
+// Import your variable overrides
+@import "custom";  // now that _custom.scss is in same folder, no ../ needed
+
+// Import Bootstrap after overrides
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "site";

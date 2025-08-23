@@ -1,0 +1,26 @@
+{
+  "name": "thane-j-thompson.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/style.scss css/style.css --quiet-deps",
+    "watch": "sass scss/style.scss css/style.css --watch --quiet-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thane-j-thompson/thane-j-thompson.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thane-j-thompson/thane-j-thompson.github.io/issues"
+  },
+  "homepage": "https://github.com/thane-j-thompson/thane-j-thompson.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "sass": "^1.90.0"
+  }
+}

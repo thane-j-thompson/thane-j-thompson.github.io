@@ -4,106 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Software Development Portfolio</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Thane J Thompson</title>
     <link rel="stylesheet" href="base.css">
-    <style>
-        body
-        {
-                font-family: Arial, sans-serif
-        }
-        a.text-white:hover 
-        {
-            background-color: rgba(255, 255, 255, 0.2);  /* Slight white background on hover for better visibility */
-            text-decoration: underline;  /* Underline the text to indicate it's a link */
-        }
-        .small-logo 
-        {
-            max-width: 100px; /* Or any other size */
-            height: auto; /* To maintain aspect ratio */
-        }
-
-</style>
+     <link rel="stylesheet" href="css/style.css"> <!-- compiled SCSS -->
 </head>
 <body>
 <!-- Text Banner -->
-<section class="bg-secondary text-white text-center py-3">
-    <h1>Github Portfolio Guide</h1>
-    <p>Software Development</p>
-</section>
--<!-- Featured Project Section -->
-<section class="container mt-5">
-    <h2 class="text-center">Featured Full-Stack Projects</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <h3>Resolvely AI</h3>
-            <p>An educational counseling startup needed to move to a fullstack application from design prototype. I worked on backend,
-                middle tier, and frontend for the FAQs functionality using MS SQL Server, .NET/C#, and React.  Developed a feature 
-                proposal to link an OpenAI GPT to curated FAQ database.  </p>
-            <img src="logo_Resolvely.png" alt="Resolvely" class="img-fluid medium-logo">
-            <a href="https://www.resolvely.ai/" class="btn btn-success">Production Site</a>
-            <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a>
-        </div>
-        <div class="col-md-6">
-            <h3>BioBusiness Guide</h3>
-            <p>A prototype automated data aggregation service.  Webiste markets a database of companies, locations, and key contacts useful for salespeople, jobseekers, and investorsadvertises the book, the data, and the speaking services.  The data model includes a pipeline for prototype data aggregation service.  The data is useful for sales, marketing, job hunters, and investors.  Main technical challenge 
-                was to integrate input from multiple sources, APIs, and methods. Transformation of data to geographic, financial, and industry models. AWS cloud technologies are Amplify Mechanical Turk, EC2, S3, and Glue.  
-                Front end technologies are Amplify HTML/CSS/JavaScript, React, and Bootstrap.  Backend technology is MS SQL Server on prem and MySQL on AWS.</p>
-            <!-- <img src="path_to_your_featured_image.jpg" alt="ABPic" class="img-fluid"> -->
-            <a href="http://www.acceleratebiopharma.com" class="btn btn-success">Development Site</a>
-        </div>
-                <div class="col-md-6">
-            <h3>BioBusiness Club</h3>
-            <p>An investment club wanted to use a community strategy to build membership and deliver member services. Main challenge is the balance between developing new functionality and operating a functional website. 
-                Cloud technology is Hubspot integrated hosting, CRM, CMS, and CDS.  Dev Site 1 is quick site using low code, no code from Hubspot.   Dev Site 2 is full stack with React, HTML/CSS/JavaScript, React, and Bootstrap on front end and only planned backend technologies currently.</p>
-            <img src="BioBusiness.png" alt="BioBusinessPic" class="img-fluid">
-            <a href="http://www.biobusiness.club" class="btn btn-success">Production Site</a>
-            <a href="https://biobusiness-club-44644482.hubspotpagebuilder.com/en-us/" class="btn btn-success">Development Site</a>
-        </div>
-    </div>
-</section>
-
-<!-- Three Column Section for Project Links -->
-<section class="container mt-5">
-    <h2 class="text-center">Other Portfolio Items</h2>
-    <div class="row">
-        <!-- Column 1 -->
-        <div class="col-md-4">
-            <h5>Software</h5>
-            <ul>
-                <li><a href="#">Wumpus World by Luka, refactored to React of the classic AI problem and addition of algo drop in for big(O) testing</a></li>
-                <li><a href="#">Azure Serverless Computing App with Azure Static Web App - Art Gallery Template</a></li>
-            </ul>
-        </div>
-        <!-- Column 2 -->
-        <div class="col-md-4">
-            <h5>TBD Technical Project Management</h5>
-            <ul>
-                <li><a href="#">TBD</a></li>
-                <li><a href="#">TBD</a></li>
-            </ul>
-        </div>
-        <!-- Column 3 -->
-        <div class="col-md-4">
-            <h5>Background</h5>
-            <ul>
-                <li><a href="1-Issue_Paper_AI_CADD.pdf">Input Letter to FDA on Software in Drug Discovery</a></li>
-                <li><a href="2-Teaching_Philosopy.pdf">Teaching Philosophy</a></li>
-                <li><a href="3-Sample_Engage1_MilSvc.pdf">In the news - Ukrainian Civil-Military Engagement</a></li>
-                <li><a href="4-Sample_Engage2_MilSvc.pdf">In the news - Iraqi Civil-Military Engagement</a></li>
-                <li><a href="#">61st Floor on 9/11</a></li>
-                <li><a href="#">Iraq Government Reconstruction Program</a></li>
-                <li><a href="#">Ukraianian Armed Forces Civil Military Interaction and Cooperation Training</a></li>
-            </ul>
-        </div>
-    </div>
+<section class="bg-primary text-white text-center py-3">
+    <h1>Thane J. Thompson</h1>
+    <p>Fullstack Software Development Portfolio</p>
 </section>
 
 <!-- Resume Summary Section -->
-<section class="container mt-5 pb-5">
+<section class="container mt-3 pb-3">
     <section id="summary">
         <h3>Summary</h3>
         <p> Mission oriented software developer with both technical and management skills.</p>
@@ -111,17 +24,145 @@
     <section id="skills">
         <h4>Technical Skills</h4>
         <ul>
-            <li>Front Tier / UI:  React, JavaScript, HTML5, CSS3, Bootstrap</li>
-            <li>Middle Tier:   C#, .NET, Python 3</li>
-            <li>Back Tier/Databases:  MS SQL Server, SQLite, MS Access</li>
-            <li>Cloud: Azure, AWS </li>
-            <li>APIs/Data Vendors: Mechanical Turk, AlphaVantage, Data Axle, OpenAI</li>
-            <li>Teamwork: GitHub, Slack, MS365, Zoom</li>
-            <li>CRM Applications: Salesforce, Hubspot</li>
+            <li><b>Front Tier / UI</b>:  Vue, React, JavaScript, HTML5, CSS3, Bootstrap, SASS</li>
+            <li><b>Middle Tier</b>:   Nuxt, C#, .NET, Python 3</li>
+            <li><b>Back Tier/Databases</b>:  Kontent (headless CMS), MS SQL Server, SQLite, MS Access</li>
+            <li><b>Cloud</b>: Azure, AWS, GPC</li>
+            <li><b>APIs/Data Vendors</b>: Mechanical Turk, AlphaVantage, Data Axle, OpenAI</li>
+            <li><b>Teamwork</b>: GitHub, Slack, MS365, Zoom</li>
+            <li><b>CRM Applications</b>: Salesforce, Hubspot</li>
         </ul>
     </section>
+</section>
 
-<footer class="text-center bg-dark text-white py-3">
+
+-<!-- Featured Project Section -->
+<section class="container mt-1">
+    <h2 class="text-center">Featured Full-Stack Project Work</h2>
+    <div class="row">
+        <div class="col-md-6 mt-5">
+            <h3>ThinkLogic</h3>
+           <p>In 2025, on the Chatsworth Products account, built Vue components and Nuxt midtier items for the law firm's marketing website.  I worked on primarily the frontend connection to Kontent.ai managed content.
+                </p>
+            <img src="cpi_logo.BbpggA4C.svg" alt="JND" class="img-fluid w-50">
+            <a href="https://www.chatsworth/" class="btn btn-white border-dark ms-3">View Production Site</a>
+            <!-- <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a> -->
+        </div>
+        <div class="col-md-6 mt-5">
+            <h3>ThinkLogic</h3>
+           <p>In 2024, on the Manatt account, built Vue components and Nuxt midtier items for the law firm's marketing website.  I worked on primarily the frontend connection to Kontent.ai managed content.
+                </p>
+            <img src="manatt_goldBox_RGB.svg" alt="Manatt" class="img-fluid small-logo">
+            <a href="https://www.manatt.com/" class="btn btn-white border-dark ms-3">View Production Site</a>
+            <!-- <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a> -->
+        </div>
+        <div class="col-md-6 mt-5">
+            <h3>ThinkLogic</h3>
+           <p>In 2024, on the JND account, built reusable Vue 3 components and .NET server routes/middleware, integrating MS SQL Server from Azure to capture, validate and process power the firm’s gathering of potential class member claims. Example suits are:
+                </p>
+            <img src="o-logo.png" alt="JND" class="img-fluid w-50">
+            <a href="https://www.bostonscientificsecuritieslitigation.com/" class="btn btn-white border-dark ms-3">View Production Site</a>
+            <!-- <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a> -->
+        </div>
+        <div class="col-md-6 mt-5">
+            <h3>Resolvely AI</h3>
+            <p>In 2024, for an educational counseling startup needed to move to a fullstack application from design prototype. I worked on backend,
+                middle tier, and frontend for the FAQs functionality using MS SQL Server, .NET/C#, and React.  Developed a feature 
+                proposal to link an OpenAI GPT to curated FAQ database.  The Company failed to receive funding and, as of 2025, no artifacts are publically available.</p>
+            <img src="logo_Resolvely.png" alt="Resolvely" class="img-fluid w-25">
+            <a href="" class="btn btn-white border-dark ms-3">Site no longer active</a>
+            <!-- <a href="https://www.resolvely.ai/" class="btn btn-success">Production Site</a>
+            <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a> -->
+        </div>
+        
+        <div class="col-md-6 mt-5">
+            <h3>Storybook Network</h3>
+           <p>In 2024, built React components for the infotainment production company marketing website.  I worked on primarily the frontend website, middle tier logic, and marketing copy.
+                </p>
+            <img src="sbn-DALL-E-notext.webp" alt="Storybook" class="img-fluid w-25">
+            <a href="https://www.storybook.network/" class="btn btn-white border-dark ms-3">View Production Site</a>
+            <!-- <a href="https://resolvely.azurewebsites.net/" class="btn btn-success">Development Site</a> -->
+        </div>
+        
+        <div class="col-md-6 mt-5">
+            <h3>Omics Guide</h3>
+            <p>A prototype automated data aggregation service.  Webiste markets a database of companies, locations, and key contacts useful for salespeople, jobseekers, and investorsadvertises the book, the data, and the speaking services.  The data model includes a pipeline for prototype data aggregation service.  The data is useful for sales, marketing, job hunters, and investors.  Main technical challenge 
+                was to integrate input from multiple sources, APIs, and methods. Transformation of data to geographic, financial, and industry models. AWS cloud technologies are Amplify Mechanical Turk, EC2, S3, and Glue.  
+                Front end technologies are Amplify HTML/CSS/JavaScript, React, and Bootstrap.  Backend technology is MS SQL Server on prem and MySQL on AWS.</p>
+            <!-- <img src="path_to_your_featured_image.jpg" alt="ABPic" class="img-fluid"> -->
+            <!-- <a href="http://www.acceleratebiopharma.com" class="btn btn-success">Development Site</a> -->
+        </div>
+        <div class="col-md-6 mt-5">
+            <h3>BioBusiness Club</h3>
+            <p>An investment club wanted to use a community strategy to build membership and deliver member services. Main challenge is the balance between developing new functionality and operating a functional website. 
+                Cloud technology is Hubspot integrated hosting, CRM, CMS, and CDS.  Dev Site 1 is quick site using low code, no code from Hubspot.   Dev Site 2 is full stack with React, HTML/CSS/JavaScript, React, and Bootstrap on front end and only planned backend technologies currently.</p>
+            <img src="BioBusiness.png" alt="BioBusinessPic" class="img-fluid w-50">
+            <!-- <a href="http://www.biobusiness.club" class="btn btn-success">Production Site</a>
+            <a href="https://biobusiness-club-44644482.hubspotpagebuilder.com/en-us/" class="btn btn-success">Development Site</a> -->
+        </div>
+
+
+    </div>
+</section>
+
+<!-- Three Column Section for Project Links -->
+<section class="container mt-3 mb-3 pb-3">
+    <h2 class="text-center mb-4">Other Portfolio Items</h2>
+    <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+            <h5>Software</h5>
+            <ul>
+                <li><a href="https://www.kagglizer.com/">Kagglizer</a>&nbsp;&nbsp;for MS AI Hackathon</li>
+                <li><a href="#">Wumpus World by Luka, refactored to React of the classic AI problem and addition of algo drop in for big(O) testing</a></li>
+                <li><a href="#">Azure Serverless Computing App with Azure Static Web App - Art Gallery Template</a></li>
+            </ul>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+            <h5>Technical Project Management</h5>
+            <ul>
+                <li><a href="https://www.storybook.network/">Storybook Network:</a>&nbsp;&nbsp;Waterfall project management for interactive storytelling platform</li>
+                <li><a href="https://www.firefly-adventures.com/">Firefly Adventures:</a>&nbsp;&nbsp;Waterfall project management for interactive storytelling platform during 30-day hackathon.</li>
+            </ul>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+            <h5>Writing Samples</h5>
+            <ul>
+                <li><a href="1-Issue_Paper_AI_CADD.pdf">Policy Input Letter:</a>&nbsp;&nbsp;Written to FDA on Software in Drug Discovery</li>
+                <li><a href="2-Teaching_Philosopy.pdf">Teaching Philosophy</a>&nbsp;&nbsp;Written to describe approach to teaching at a California Community College</li>
+                <li><a href="http://frumforum.com/entry/remembering-911-this-is-how-im-going-to-die">9/11 Historical Account</a>&nbsp;&nbsp;Written in memorandum </li>
+                <!-- <li><a href="#">Iraq Government Reconstruction Program</a></li>
+                <li><a href="#">Ukraianian Armed Forces Civil Military Interaction and Cooperation Training</a></li> -->
+            </ul>
+        </div>
+    </div>
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+            <h5>In the News</h5>
+            <ul>
+                <li><a href="3-Sample_Engage1_MilSvc.pdf">US Army Work in Ukraine</a>&nbsp;&nbsp;Ukrainian Civil-Military Engagement</li>
+                <li><a href="4-Sample_Engage2_MilSvc.pdf">US Army Work in Iraq</a>&nbsp;&nbsp;- Iraqi Civil-Military Engagement</li>
+            </ul>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+            <h5>General Management</h5>
+            <ul>
+                <li><a href="https://www.army.mil//">US Army:</a>&nbsp;&nbsp;Agile project management for organization with up to 2000 employees.</li>
+            </ul>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+        </div>
+    </div>
+
+
+    </section>
+
+<footer class="text-center bg-primary text-white py-3">
     <p>Connect with me on 
         <a href="https://www.linkedin.com/in/thanejthompson" class="text-white">LinkedIn</a> 
     </p>
@@ -131,6 +172,6 @@
     <!-- <a href="path_to_your_full_resume.pdf" class="btn btn-secondary">Download My Full Resume</a> -->
 </footer>
 
-
 </body>
+
 </html>
